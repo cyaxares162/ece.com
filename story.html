@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> ece ile Hikayemiz</title>
+  <meta name="description" content="Sevgilim için hazırladığım özel web sitesi">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="config.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">
+    <img src="assets/heart.svg" alt="Kalp" />
+    <span id="siteTitle">Sonsuz ❤</span>
+  </a>
+  <nav class="nav">
+    <a href="index.html">Anasayfa</a>
+    <a href="story.html">Hikayemiz</a>
+    <a href="gallery.html">Galeri</a>
+    <a href="timeline.html">Zaman Çizelgesi</a>
+    
+  
+  </nav>
+</header>
+<main>
+
+<section class="grid" style="max-width:900px;margin:0 auto">
+  <div class="card">
+    <h2>Bizim Hikayemiz</h2>
+    <p>Bu sayfa, <strong id="youName"></strong> ile <strong id="herName"></strong>’in kalpten kalbe uzanan hikâyesi. 
+    Her satır, birlikte yazdığımız romanın bir paragrafı.</p>
+  </div>
+  <div id="timeline" class="timeline"></div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <p>© <span id="year"></span> <span id="youName"> KİYAKSER</span> → <span id="herName">ECE</span>. Tüm kalbimle.</p>
+</footer>
+</body>
+</html>
