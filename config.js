@@ -2,7 +2,7 @@
 const SITE = {
   yourName: "KİYAKSER",
   herName: "ECE",
-  anniversary: "2025-08-06", // yıl-ay-gün
+  anniversary: "2025-09-18", // yıl-ay-gün
   homepageMessage: "Seninle geçen her gün, hayatımın en güzel hediyesi.",
   gallery: [
     "ece ile fotolar/ben ve ece.jpg",
